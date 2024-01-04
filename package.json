@@ -1,0 +1,41 @@
+{
+  "name": "chatbot-companion",
+  "version": "1.0.0",
+  "description": "A user-friendly chatbot application designed for general conversation, information retrieval, and task assistance, powered by OpenAI's GPT model.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/chatbot-companion.git"
+  },
+  "keywords": [
+    "chatbot",
+    "openai",
+    "gpt",
+    "react",
+    "node.js",
+    "express.js",
+    "mongodb"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/chatbot-companion/issues"
+  },
+  "homepage": "https://github.com/yourusername/chatbot-companion#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "openai": "^0.0.3",
+    "dotenv": "^10.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-native": "^0.64.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
